@@ -7,6 +7,9 @@ project(WebServer CXX)
 
 set(SourceFiles
     "./src/Main.cpp"
+    "./src/HTTP/HTTPMessage.cpp"
+    "./src/HTTP/HTTPRequest.cpp"
+    "./src/HTTP/HTTPResponse.cpp"
 )
 
 add_executable(${PROJECT_NAME} ${SourceFiles})
