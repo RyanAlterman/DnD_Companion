@@ -10,6 +10,8 @@ set(SourceFiles
     "./src/HTTP/HTTPMessage.cpp"
     "./src/HTTP/HTTPRequest.cpp"
     "./src/HTTP/HTTPResponse.cpp"
+    "./src/HTTP/HTTPUtils.cpp"
+    "./src/Resources/URI.cpp"
 )
 
 add_executable(${PROJECT_NAME} ${SourceFiles})
